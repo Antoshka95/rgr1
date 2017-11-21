@@ -385,7 +385,7 @@ foreach ($data as $phone){
 	echo '<div class="img">';
 	echo	'<img src="'.$phone['mainPhoto']['url'].'" width="250">';	
 	echo '</div>';
-	echo "<h2><b> Общие характеристики: </b></h1>". "<p>". 'Наименование телефона: ' .htmlspecialchars ($phone['name']).
+	echo "<h2><b> Характеристики: </b></h1>". "<p>". 'Наименование телефона: ' .htmlspecialchars ($phone['name']).
 	"<p>". 'Id - ' .htmlspecialchars ($phone['id']).
 	"<p>".'Рейтинг - ' .htmlspecialchars($phone['rating']).
 	"<p>". 'Описание: ' .htmlspecialchars ($phone['description']).
